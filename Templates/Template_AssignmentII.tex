@@ -1,0 +1,44 @@
+\documentclass[a4paper]{article}
+
+\input{preamble}
+\usepackage{media9}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\usepackage{amsmath}
+\usepackage[inner=2.0cm,outer=2.0cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+\usepackage[utf8]{inputenc}
+
+\title{5C1 Video Processing :  Assignment II} 
+\author{Place Name Here}
+\date{1 Jan 2023}  % if the \date{} command is left out, the current date will be used
+
+
+\begin{document}
+
+\maketitle% this prints the handout title, author, and date
+\vspace*{1\baselineskip}
+\hrule
+\large
+
+
+\begin{enumerate}
+    \item Describe, explain and justify the algorithm you use to create the representations. Explain how you generate the PSNR that is used to compare representations and make decisions. \\
+    \myVbigbox{Place answer here}
+    \item Show on a single R/D plot in Figure~\ref{rd}, the RD curves for each of your representations. Place appropriate legends and label your axes appropriately. Show on the plot your estimate for the crossover bitrates i.e. the maximum bitrate where the quality of representations at 138p and 274p are greater than 274p and 548p respectively.
+    \begin{figure}     
+    \centering
+    \includegraphics[width=0.6\textwidth]{ass2answer.eps}
+    \caption{\em The RD Curves for three representations are shown as well as crossover bitrates (*). Note XXXX. PLEASE NOTE THAT YOUR FIGURE WILL NOT LOOK LIKE THIS! \label{rd}}
+\end{figure}
+    \item Write here the quality and rate for your chosen representation at 138p.  \mybox{$\sim$ 900Kbps, 90dB}
+    \item Write here the quality and rate for your chosen representation at 274p.  \mybox{$\sim$ 2048Kbps, 90dB}
+    \item Write here the quality and rate for your chosen representation at 720p.  \mybox{$\sim$ 3MBps, 80dB}
+    \item The $V_l$ representation at 274p has bitrate and PSNR = \mybox{ 0.1 Mbps, 8 dB}
+    \item Comment on any differences between the  representation $V_l$ at 274p and your chosen representation. \\
+       \mybbbbigbox{Those who meet the Jabberwocky, will, the native legend goes, wish they had never done so.}
+    
+        
+\end{enumerate}
+
+\end{document}

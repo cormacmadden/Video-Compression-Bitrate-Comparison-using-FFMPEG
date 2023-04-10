@@ -1,0 +1,8 @@
+Compress each of the raw video cli[ps to the relevant bitrates (.yuv) --> (.mp4)]
+
+
+### unpack (.mp4) -->(.yuv)
+
+### Compare the degraded (.yuv) against the original resolution 'raw' clip at
+### if the degraded (.yuv) resolution is lower then upsample th original clip
+### You can upsample via PYTHON or FFMPAG command
