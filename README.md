@@ -1,7 +1,5 @@
-<center>
-
 # Video Compression Bitrate Comparison using FFMPEG
-</center>
+
 
 This project investigate the trade-off between different strategies of transcoding DASH (H.264) representations for streaming.
 To do this the same short video file is encoded at several different bitrates and various resolutions and the quality is compared quantitatively (using PSNR) and qualitatively.
@@ -32,13 +30,10 @@ original frames and the compressed frames. The MSE is the sum of the squared dif
 between each pixel in the two frames, divided by the total number of pixels. The MSE is
 then used in the PSNR formula (1) with the Max value which is typically 255 for a 8-bit
 video.
-
-<center>
-
-<img src="Figures/Block%20Diagram.png" alt="BlockDiagram" width = "20%" height="20%"></img>
-
 ### Block Diagram of the Pocess which Calculates and Plots each Bitrate and Resolution 
-
+<p align="center">
+<img src="Figures/Block%20Diagram.png" alt="BlockDiagram" width = "20%" height="20%"></img>
+</p>
 </center>
 
 The R/D plot in Figure 5, shows the RD curves for each of the representations. The points
@@ -47,10 +42,9 @@ where the quality of representations at 138p and 274p are greater than 274p and 
 respectively.
 </br>
 
-<center>
-
+<p align="center">
 <img src="Figures/FigurePSNR.png" alt="Crossover Points" width = "50%" height="50%"></img>
-</center>
+</p>
 
 ***
 
@@ -64,10 +58,9 @@ the next jump in quality and bit-rate is so large.
 
 ### Comparison of quality of 180p (left) and 360p (right) at same bitrate 128Kbps.
 
-<center>
-</br>
+<p align="center">
 <img src="Figures/128Kbps%20comparison.png" alt="128Kbps Comparison" width = "60%" height="60%">
-</center>
+</p>
 
 Despite the 360p file having a higher PSNR value
 at the same bit-rate, the artifacts in the 360p file are extremely blocky and distracting.
@@ -75,9 +68,9 @@ at the same bit-rate, the artifacts in the 360p file are extremely blocky and di
 
 ### Comparison of quality of 360p (left) and 720p (right) at same bitrate 1024Kbps.
 
-<center>
+<p align="center">
 </br>
 <img src="Figures/1024Kbps%20comparison.png" alt="1024Kbps Comparison" width = "80%" height="50%">
-</center>
+</p>
 
 There appears to be more artifacts in the 720p frame, in particular there are blocky artifacts visible on the male in the foregrounds nose.
