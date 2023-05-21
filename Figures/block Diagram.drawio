@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" modified="2023-04-20T10:33:28.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="4JB9qCEmKaDlyf6yuHn8" version="21.2.1" type="device">
+  <diagram name="Page-1" id="LDrLN33ZzuPNRjuS2DR8">
+    <mxGraphModel dx="1728" dy="916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTxeiIPZj4dqlU1nCbfO-1" target="YTxeiIPZj4dqlU1nCbfO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-1" value="Encode to MP4,&lt;br&gt;Compress with X constant Bitrate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTxeiIPZj4dqlU1nCbfO-2" target="YTxeiIPZj4dqlU1nCbfO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-2" value="Decode MP4 to YUV using &lt;br&gt;lossless encoding." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTxeiIPZj4dqlU1nCbfO-3" target="YTxeiIPZj4dqlU1nCbfO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-3" value="Upscale the Video to 720p" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTxeiIPZj4dqlU1nCbfO-4" target="YTxeiIPZj4dqlU1nCbfO-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="373" y="660" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="YTxeiIPZj4dqlU1nCbfO-4" target="YTxeiIPZj4dqlU1nCbfO-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="555" />
+              <mxPoint x="260" y="555" />
+              <mxPoint x="260" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YTxeiIPZj4dqlU1nCbfO-12" target="YTxeiIPZj4dqlU1nCbfO-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="640" />
+              <mxPoint x="230" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-4" value="Calculate the PSNR and SSIM when compared with the original video." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="525" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTxeiIPZj4dqlU1nCbfO-12" target="YTxeiIPZj4dqlU1nCbfO-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-12" value="Plot the line of PSNR values against the bit-rate for this Resolution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTxeiIPZj4dqlU1nCbfO-15" target="YTxeiIPZj4dqlU1nCbfO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-15" value="For each Resolution" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YTxeiIPZj4dqlU1nCbfO-16" target="YTxeiIPZj4dqlU1nCbfO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-16" value="For each Bitrate X" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YTxeiIPZj4dqlU1nCbfO-24" value="Show the plot with the line from each resolution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="700" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

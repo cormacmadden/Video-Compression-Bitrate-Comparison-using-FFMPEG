@@ -1,4 +1,4 @@
-Compress each of the raw video cli[ps to the relevant bitrates (.yuv) --> (.mp4)]
+Compress each of the raw video clips to the relevant bitrates (.yuv) --> (.mp4)
 
 ### unpack (.mp4) -->(.yuv)
 
